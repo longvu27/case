@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="stye.css">
+</head>
+<body>
+<h4 id="ND01">Nội dung nguồn tiền: <input id="nd1" type="text"></h4>
+<h4 id="ST01">Số tiền: <input id="tt1" type="number"></h4>
+<button id="add-1" onclick="add1()">Thêm</button>
+<br> <br>
+
+<table id="rep1">
+    <tr>
+        <th>Các nguồn tiền bạn có</th>
+        <th>Số tiền bạn có</th>
+        <th>Xóa</th>
+    </tr>
+</table>
+
+<br>
+<div>
+    <h3 id="tien-co">Tổng tiền bạn có:</h3>
+    <h3 id="sum1"></h3>
+</div>
+<br>
+
+<h4 class="chi">Nội dung chi tiền: <input id="nd2" type="text"></h4>
+<h4 class="chi">Số tiền: <input id="tt2" type="number"></h4>
+<button id="add-2" onclick="add2()">Thêm</button>
+<br> <br>
+<table id="rep2">
+    <tr>
+        <th>Nội dung chi tiền</th>
+        <th>Số tiền đã chi</th>
+        <th>Xóa</th>
+    </tr>
+</table>
+<br>
+
+<div>
+    <h3 id="tien-chi">Tổng tiền bạn chi: </h3>
+    <h3 id="sum2"></h3>
+</div>
+
+<div>
+    <h3 id="du">Số dư: </h3>
+    <h3 id="surplus"></h3>
+    <h3 id="comment"></h3>
+</div>
+
+<script src="manage.js"></script>
+</body>
+</html>

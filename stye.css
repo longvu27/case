@@ -1,0 +1,56 @@
+table {
+    width: 500px;
+    /*background-color: aquamarine;*/
+    height: auto;
+    border-collapse: collapse;
+    /*!*text-align: ;*! căn chữ*/
+}
+
+#rep1 {
+    color: orange;
+    font-style: revert;
+}
+
+#rep2 {
+    color: red;
+}
+
+tr, td, th {
+    heigth: 30px;
+    border: 1px solid black;
+}
+
+span {
+    color: rgb(5, 5, 5);
+}
+
+h3 {
+    color: blue;
+    font-style: italic;
+}
+
+#ND01, #ST01 {
+    color: orange;
+}
+
+#surplus, #du {
+    color: violet;
+}
+
+.chi {
+    color: red;
+}
+
+#comment {
+    color: orangered;
+}
+
+#add-1, #del-1 {
+    background-color: orange;
+    color: white;
+}
+
+#add-2, #del-2 {
+    background-color: red;
+    color: white;
+}
